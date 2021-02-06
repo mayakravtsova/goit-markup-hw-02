@@ -1,0 +1,126 @@
+:root {
+    --text-main-dark: #212121;
+    --text-main-light: #FFFFFF;
+    --text-sub: #757575;
+    --text-accent: #2196F3;
+    --text-accent-transparent: rgba(255, 255, 255, 0.6);
+    --background-dark: #2F303A;
+    --background-light: #F5F4FA;
+    --background-head: #FFFFFF;
+} 
+
+a {
+    
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-main-dark);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* 
+font-family: 'Oleo Script', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+}
+
+.logo {
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.logo-accent {
+    color: var(--text-accent);
+}
+
+.head-section {
+    color: var(--background-head);
+    font-weight: 500;
+
+}
+
+.head-contacts{
+    color: var(--text-sub);
+}
+
+.footer-section {
+    background-color: var(--background-dark);
+    color: var(--text-main-light);
+}
+
+.contacts-footer {
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--text-accent-transparent);
+}
+
+.contacts-footer:visited {
+   color: var(--text-accent-transparent); 
+}
+
+.link {
+    text-decoration: none;   
+}
+.link:hover {
+  color: var(--text-accent);
+}
+
+
+/*////////////////////////////////////INDEX//////////////////////////////////*/
+.title-section {
+   background-color: var(--background-dark);
+}
+.title {
+   color: var(--text-main-light);
+   font-weight: 900;
+   font-size: 44px;
+   text-transform: uppercase;
+}
+.title-button {
+    background-color: var(--text-accent);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-main-light);
+}
+
+
+.decision-item {
+    font-weight: 700;
+}
+.decision-item-text {
+    color: var(--text-sub);
+}
+
+
+.subtitle {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+.team-section {
+    background-color: var(--background-light);
+    font-size: 16px;
+}
+.team-section-name {
+    font-weight: 500;
+}
+
+.team-section-position {
+    font-weight: 400;
+    color: var(--text-sub);
+}
+
+font-size: 16px;
+
+
+
+/*//////////////////////////////////PORTFOLIO////////////////////////////////*/
