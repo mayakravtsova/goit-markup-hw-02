@@ -195,6 +195,7 @@ address {
   line-height: 26px;
 /* text-align: center; */
   letter-spacing: 0.03em;
+  background-color: var(--background-light);
 }
 
 .project-filter-button:focus {
