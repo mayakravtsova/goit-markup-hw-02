@@ -31,7 +31,8 @@ address {
 /* HEADER */
 
 .head-section {
-  background-color: var(--main-light);   
+  background-color: var(--main-light); 
+  color: var(--text-main-dark);  
 }
 
 .logo {
@@ -41,7 +42,6 @@ address {
   line-height: 31px;
   letter-spacing: 0.03em;
   outline: none;
-  color: var(--text-main-dark);
 }
 
 .logo:visited {
@@ -99,7 +99,6 @@ address {
   outline: none;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--main-light);
 }
 
 .footer-contacts:visited {
