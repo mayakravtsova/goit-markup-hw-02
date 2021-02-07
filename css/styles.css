@@ -8,6 +8,14 @@
   --background-light: #F5F4FA;
 } 
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-main-dark);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 a {
   text-decoration: none;  
 }
@@ -18,14 +26,6 @@ ul {
 
 address {
   font-style: normal;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--text-main-dark);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
 }
 
 /* HEADER */
