@@ -10,12 +10,14 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  
   color: var(--text-main-dark);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
 }
 
+/*
 a {
   text-decoration: none;  
 }
@@ -27,6 +29,7 @@ ul {
 address {
   font-style: normal;
 }
+*/
 
 /* HEADER */
 
@@ -45,11 +48,7 @@ address {
 }
 
 .logo:visited {
-  color: currentColor;
-}
-
-.logo:hover {
-  color: var(--text-accent);
+  color: var(--text-main-dark);
 }
 
 .logo:focus {
@@ -68,7 +67,7 @@ address {
 }
 
 .link:visited {
-  color: currentColor;
+  color: var(--text-main-dark);
 }
 
 .link:hover {
@@ -81,7 +80,23 @@ address {
 
 .head-contacts{
   color: var(--text-sub);
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  outline: none;
 }
+
+.head-contacts:visited {
+  color: var(--text-sub);
+}
+
+.head-contacts:hover {
+  color: var(--text-accent);
+}
+
+.head-contacts:focus {
+  color: var(--text-accent);
+}  
 
 
 /* FOOTER */
@@ -102,7 +117,7 @@ address {
 }
 
 .footer-contacts:visited {
-  color: currentColor;
+  color: var(--text-accent-transparent);
 }
 
 .footer-contacts:hover {
@@ -118,17 +133,18 @@ address {
 /* MAIN - TITLE */
 
 .title-section {
-   background-color: var(--background-dark);
+  background-color: var(--background-dark);
 }
 
 .title {
-   color: var(--main-light);
-   font-weight: 900;
-   font-size: 44px;
-   line-height: 60px;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;
-/*   text-align: center;*/
+  color: var(--main-light);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* text-align: center;*/
 }
 
 .title-button {
@@ -137,8 +153,9 @@ address {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
-/* align-items: center; */
-/* text-align: center; */
+
+  /* align-items: center; */
+  /* text-align: center; */
   color: var(--main-light);
   outline-color: var(--text-accent);
 }
@@ -165,7 +182,8 @@ address {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-/* text-align: center; */
+
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
@@ -173,18 +191,22 @@ address {
 
 .team-section {
   background-color: var(--background-light);
-  font-size: 16px;
-  line-height: 19px;
-/* text-align: center; */
-  letter-spacing: 0.03em;
 }
 
 .team-section-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
 }
 
 .team-section-position {
-  color: var(--text-sub);
+  color: var(--text-sub); 
+  font-size: 16px;
+  line-height: 19px;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
 }
 
 /*  PORTFOLIO  */
@@ -193,7 +215,8 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-/* text-align: center; */
+
+  /* text-align: center; */
   letter-spacing: 0.03em;
   background-color: var(--background-light);
 }
