@@ -45,6 +45,7 @@ address {
   line-height: 31px;
   letter-spacing: 0.03em;
   outline: none;
+  color: var(--text-main-dark);
 }
 
 .logo-accent {
