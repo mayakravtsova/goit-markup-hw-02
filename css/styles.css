@@ -47,14 +47,6 @@ address {
   outline: none;
 }
 
-.logo:visited {
-  color: var(--text-main-dark);
-}
-
-.logo:focus {
-  color: var(--text-accent);; 
-}
-
 .logo-accent {
   color: var(--text-accent);
 }
@@ -111,6 +103,10 @@ address {
   color: var(--main-light);
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.footer-logo {
+  color: var(--main-light);
 }
 
 .footer-contacts {
